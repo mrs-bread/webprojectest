@@ -1,0 +1,366 @@
+#block-tariffs {
+    padding: 160px 0 90px;
+    font-family: Montserrat;
+    background: url(D-background-opacity.svg) no-repeat right top,#fff;
+    background-size: 58%
+}
+
+#block-tariffs .block-title {
+    margin-top: 0;
+    margin-bottom: 65px;
+    text-align: center;
+    color: #000;
+    font-weight: 700;
+    font-size: 42px
+}
+.tariffs-row {
+    display: block
+}
+
+.tariffs-row.row-flex {
+    display: flex
+}
+.tariffs-row.two-items .tariff {
+    margin: auto auto 30px
+}
+.tariffs-row.two-items .tariff-wrapper {
+    width: 400px
+}
+.tariffs .tariffs-row:hover .col-flex:nth-of-type(2n) .tariff {
+    transform: initial;
+    box-shadow: none
+}
+.tariffs-ps {
+    text-align: center;
+    line-height: 1.3;
+    font-weight: 500;
+    color: #828a9b;
+    width: 475px;
+    max-width: 100%;
+    margin: 0 auto
+}
+.tariffs-link {
+    display: block;
+    margin-top: 26px;
+    font-size: 12px;
+    text-transform: uppercase;
+    color: #050c33;
+    text-decoration: underline;
+    transition: all .3s
+}
+.tariff:hover .tariff-footer-btn,.tariffs .tariffs-row:hover .col-flex:nth-of-type(2n) .tariff:hover .tariff-footer-btn {
+    color: #fff;
+    background: #f14d34
+}
+.tariffs-link:hover {
+    text-decoration: none;
+    color: #f14d32
+}
+.tariffs .tariffs-row:hover .col-flex:nth-of-type(2n) .tariff .tariff-footer-btn {
+    color: #f89c91;
+    background: #fff
+}
+.tariff:hover,.tariffs .tariffs-row:hover .col-flex:nth-of-type(2n) .tariff:hover {
+    transform: scale(1.1);
+    z-index: 15;
+    box-shadow: 0px 4px 60px rgba(162,162,162,.25)
+}
+.tarrif-body-item {
+    margin-bottom: 18px;
+    line-height: 1.2;
+    font-size: 16px;
+    font-weight: 100;
+    position: relative;
+    padding-left: 30px;
+    color: #4e5972;
+    font-weight: 500
+}
+
+.tarrif-body-item:before,.tariff-body-item:before {
+    content: "";
+    display: inline-block;
+    position: absolute;
+    top: 3px;
+    left: 0;
+    width: 13px;
+    height: 10px;
+    background: url(checkmark.svg) no-repeat center;
+    background-size: contain
+}
+.tariff-wrapper {
+    width: 300px;
+    max-width: 100%;
+    margin: 0 auto;
+    height: 100%;
+    position: relative;
+    padding-bottom: 80px
+}
+.tariff-header {
+    border-bottom: 2px solid #e5e5e5;
+    margin-bottom: 50px
+}
+.tariff-title {
+    font-weight: 700;
+    font-size: 22px;
+    font-weight: 700;
+    color: #f14d32;
+    line-height: 1.3
+}
+.container {
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 15px;
+    padding-right: 15px
+}
+.clearfix:before,.clearfix:after,.container:before,.container:after,.row:before,.row:after{
+    content: " ";
+    display: table
+}
+
+.clearfix:after,.container:after,.container-fluid:after,.row:after{
+    clear: both
+}
+.tariff .tariff-footer-btn {
+    color: #f89c91;
+    background: #fff
+}
+.tariff:hover .tariff-footer-btn,.services-audit .wrapperrow:hover .col-flex:nth-of-type(2n) .tariff:hover .tariff-footer-btn {
+    color: #fff;
+    background: #f14d34
+}
+.tariff:hover .tariff-footer-btn,.services-audit .wrapperrow:hover .col-flex:nth-of-type(2n) .tariff:hover .tariff-footer-btn {
+    color: #fff;
+    background: #f14d34
+}
+.tariff-footer-btn {
+    text-decoration: none;
+    display: block;
+    border-radius: 5px;
+    text-transform: uppercase;
+    color: #f14d34;
+    border: 1px solid #f14d34;
+    text-align: center;
+    transition: all .5s;
+    padding: 20px 10px;
+    line-height: 1;
+    font-size: 12px;
+    font-weight: 500;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0
+}
+.tariff-footer-btn:hover,.tariff-footer-btn:active,.tariff-footer-btn:focus {
+    text-decoration: none;
+    color: #fff;
+    background: #f14d34
+}
+.col-flex:nth-of-type(2n) .tariff .tariff-footer-btn {
+    color: #fff;
+    background: #f14d34
+}
+.tariffs .tariffs-row:hover .col-flex:nth-of-type(2n) .tariff .tariff-footer-btn {
+    color: #f89c91;
+    background: #fff
+}
+.tariff:hover .tariff-footer-btn,.tariffs .tariffs-row:hover .col-flex:nth-of-type(2n) .tariff:hover .tariff-footer-btn {
+    color: #fff;
+    background: #f14d34
+}
+
+
+
+
+
+
+.services-audit .wrapper:hover .col-flex:nth-of-type(2n) .tariff {
+    transform: initial;
+    box-shadow: none
+}
+
+.services-audit .wrapper:hover .col-flex:nth-of-type(2n) .tariff .tariff-footer-btn {
+    color: #f89c91;
+    background: #fff
+}
+.tariff:hover,.services-audit .wrapper:hover .col-flex:nth-of-type(2n) .tariff:hover {
+    transform: scale(1.1);
+    z-index: 15;
+    box-shadow: 0px 4px 60px rgba(162,162,162,.25)
+}
+
+.tariff:hover .tariff-footer-btn,.services-audit .wrapperrow:hover .col-flex:nth-of-type(2n) .tariff:hover .tariff-footer-btn {
+    color: #fff;
+    background: #f14d34
+}
+.col-flex:nth-of-type(2n) .tariff {
+    transform: scale(1.1);
+    z-index: 10;
+    box-shadow: 0px 4px 60px rgba(162,162,162,.25)
+}
+
+.col-flex:nth-of-type(2n) .tariff .tariff-footer-btn {
+    color: #fff;
+    background: #f14d34
+}
+
+.tariffs .tariffs-row:hover .col-flex:nth-of-type(2n) .tariff {
+    transform: initial;
+    box-shadow: none
+}
+
+.tariffs .tariffs-row:hover .col-flex:nth-of-type(2n) .tariff .tariff-footer-btn {
+    color: #f89c91;
+    background: #fff
+}
+
+.tariff:hover,.tariffs .tariffs-row:hover .col-flex:nth-of-type(2n) .tariff:hover {
+    transform: scale(1.1);
+    z-index: 15;
+    box-shadow: 0px 4px 60px rgba(162,162,162,.25)
+}
+
+.tariff:hover .tariff-footer-btn,.tariffs .tariffs-row:hover .col-flex:nth-of-type(2n) .tariff:hover .tariff-footer-btn {
+    color: #fff;
+    background: #f14d34
+}
+
+
+/*---------------------------------------------------------------------------------------*/
+.row {
+    margin-left: -15px;
+    margin-right: -15px
+}
+.row-flex {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 75px
+}
+.row-flex:after,.row-flex:before {
+    width: 0
+}
+.tariffs-row {
+    display: block
+}
+
+.tariffs-row.row-flex {
+    display: flex
+}
+.tariffs-row.two-items .tariff {
+    margin: auto auto 30px
+}
+.tariffs-row.two-items .tariff-wrapper {
+    width: 400px
+}
+.tariffs .tariffs-row:hover .col-flex:nth-of-type(2n) .tariff {
+    transform: initial;
+    box-shadow: none
+}
+.tariffs .tariffs-row:hover .col-flex:nth-of-type(2n) .tariff .tariff-footer-btn {
+    color: #f89c91;
+    background: #fff
+}
+.tariff:hover,.tariffs .tariffs-row:hover .col-flex:nth-of-type(2n) .tariff:hover {
+    transform: scale(1.1);
+    z-index: 15;
+    box-shadow: 0px 4px 60px rgba(162,162,162,.25)
+}
+.tariff:hover .tariff-footer-btn,.tariffs .tariffs-row:hover .col-flex:nth-of-type(2n) .tariff:hover .tariff-footer-btn {
+    color: #fff;
+    background: #f14d34
+}
+.container>.row {
+    display: flex;
+    flex-wrap: wrap
+}
+/*-------------------------------------------------------------------------------------------*/
+.tariff {
+    height: auto;
+    border-radius: 5px;
+    border: 1px solid #e6e6e6;
+    padding: 70px 20px 60px;
+    background: #fff;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    transition: all .5s;
+    transform-origin: center;
+    margin-bottom: 30px;
+    max-width: 500px;
+}
+@media screen and (max-width: 600px) {
+    .summary-card {
+        padding-bottom:65px
+    }
+}
+@media (max-width: 1080px) {
+    #block-tariffs .block-title{
+        font-size:36px
+    }
+}
+@media (max-width: 991px) {
+#block-tariffs .block-title{
+        font-size: 32px
+    }
+    .tarrif-body-item{
+        font-size: 14px
+    }
+}
+@media (max-width: 767px) {
+    #block-tariffs{
+        padding: 50px 0;
+        background-size: cover
+    }
+    .row-flex {
+        margin-bottom: 10px
+    }
+    #block-tariffs {
+        padding-top: 105px
+    }
+    .tariff-wrapper {
+        width: 100%
+    }
+    .tariff-title {
+        word-wrap: break-word
+    }
+    .tariff:hover,.tariffs .tariffs-row:hover .col-flex:nth-of-type(2n) .tariff:hover,.col-flex:nth-of-type(2n) .tariff {
+        transform: initial
+    }
+    .block-form-title,.section-title,.dc-section h2,.competencies h2,.advantages h2,.drupal-community .block-title,.expertise h2,#block-tariffs .block-title,#block-views-block-team-new .block-title,.team-grid .block-title,#block-views-block-our-clients .block-title,#block-views-block-testimonials-block-1 .block-title,#block-views-block-keys-block .block-title,#block-views-block-blog-block-1 .block-title,.field--name-field-education .field--label,.field--name-field-certificate-image .field--label,#block-bootstrap-dc-views-block-blog-block-2 .block-title {
+        font-size: 24px;
+        margin-bottom: 20px;
+        margin-top: initial
+    }
+    .tariff:hover,.tariffs .tariffs-row:hover .col-flex:nth-of-type(2n) .tariff:hover,.col-flex:nth-of-type(2n) .tariff {
+        transform: initial
+    }
+    .card-personal {
+        flex-direction: column;
+        padding: 20px;
+        gap: 0;
+        margin-bottom: 40px
+    }
+
+}
+@media (min-width: 768px) {
+    .container {
+        width:750px
+    }
+}
+
+@media (min-width: 992px) {
+    .container {
+        width:970px
+    }
+}
+
+@media (min-width: 1200px) {
+    .container {
+        width:1170px
+    }
+}
+@media (max-width: 991px) {
+    .tariff {
+        padding: 35px 20px;
+    }
+}
+
